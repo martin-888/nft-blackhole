@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 app.get('/nft/:id', (req, res) => {
   res.json({
-    name: "",
+    name: "-",
     image: "https://gateway.pinata.cloud/ipfs/QmNQq33D3Y1LhftVkHbVJZziuFLQuNLvFmSExwtEcKXcJx",
     attributes: []
   })
